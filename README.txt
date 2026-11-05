@@ -1,55 +1,63 @@
-NEON RUNNER - TOKYO NIGHT  (Unity endless runner)
-=================================================
-Setup (2 minutes)
-1. Unity Hub > New project > "3D" template (Built-in or URP, Unity 2021.3 or newer).
-2. Close Unity, copy this ZIP's "Assets" folder into your project (merge/replace).
-3. Open Unity, open any scene (SampleScene), press PLAY.
-   Everything (city, character, UI, music) is created from code - nothing to drag in.
+🏮 Subway Surfers – Tokyo Night (Unity 3D)
+A 3D endless runner made in Unity 6 and inspired by the Subway Surfers World Tour: Tokyo Night theme. Run down the neon Tokyo subway tracks, dodge trains and barriers, collect coins, use power-ups and get away from the Inspector and his Dog.
 
-Controls
-  Keyboard: LEFT/RIGHT (A/D) move lane, UP/W/SPACE jump, DOWN/S roll, ESC/P pause
-  Mobile/mouse: swipe left/right/up/down
+Subject: Mechanics for Game Design Name: Gunde Sandeep Hall Ticket No: 2303A52371 Batch: 07
 
-Features (from your design slide)
-  - Endless 3D running, 3 lanes, Tokyo Night city with neon signs, torii gates, lit windows
-  - Jump & Roll, trains / barriers / overhead gantries / cargo containers
-  - Coins, Mystery Boxes, Inspector + Dog chase after the first hit
-  - Power-ups: Magnet, 2X Score, Jetpack, Speed Boost, Score Boost, Hoverboard
-  - HUD (coins, score, boxes, pause), Game Over screen (Revive / Home / Retry)
-  - Best score + coins saved (PlayerPrefs), procedural sound + music
-
-Build for Android/iOS: File > Build Settings. If objects look pink/flat in a build,
-add "Standard" (or "Universal Render Pipeline/Lit") under
-Project Settings > Graphics > Always Included Shaders.
-
-Tweak: speeds/lanes in Runner.cs & GameManager.cs, colors in MakeMaterials().
-
-USING YOUR OWN MODELS (read straight from your .glb files - no importer package needed)
-  Put these anywhere inside Assets (e.g. Assets/Models/):
-    Jack.glb             -> the runner character (cut into body/arms/legs and animated)
-    subway_surfers.glb   -> the map (tree-lined railway, repeated endlessly, scaled to fit the 3 lanes)
-  If a file is missing, the game falls back to its built-in character / city.
-  For phone/PC builds copy the .glb files to Assets/StreamingAssets/.
-  Optional: prefabs in Assets/TokyoAssets are used as extra roadside buildings.
-  Credits (CC-BY-4.0): "Jake 3D Modeling Subway Surfers" - Javier Contreras (sketchfab.com/Javier.ConRod)
-                       "Subway Surfers" map - Capy Studio's (sketchfab.com/Capy_Studios)
-
-v3 changes: map keeps only the TRACK (Tokyo buildings on both sides), bright neon trains, roll/jump squash-stretch
-animation, dust + sparkle + speed-line effects, magnet/2X/boost/hover auras, power-up light beams, smooth lane changes,
-jump buffering and power-up timer bars. Jack.cs: set TurnAround to false if he faces the camera.
-v4: Subway-style rounded trains (orange/lime, grey/red, blue/yellow, yellow/red), Tokyo houses with pitched roofs,
-lanterns, cherry trees, layered night skyline, animated title screen (waving Jack, torii gate, falling petals).
-v5: Tokyo-style title screen (logo, banner, moon, stars, cables, torii, cherry trees, petals), 6 outfit styles
-(use < > buttons or LEFT/RIGHT keys on the title screen), HOW TO PLAY manual with controls + power-up legend,
-first-run on-screen hints (lane / jump / roll).
-v6: title renamed SUBWAY SURFERS, clean title layout (dark bands, no overlap, works in any window size).
-v7: fades, slow-mo crash, camera tilt, coin counter punch.
-
-v8: bloom glow (URP post-processing, created automatically), real music (put subway-surfers.mp3 anywhere in Assets;
-for builds copy it to Assets/Resources/), better synthesized sound effects, rain + wet puddles (R toggles rain, M mutes music),
-ramps up onto train roofs, oncoming trains, daily missions (MISSIONS button), shop (SHOP button) with 6 character styles + 4 hoverboards.
-v9: mp3 included at Assets/Resources/subway-surfers.mp3 (copy the whole Assets folder, not only Scripts).
-v10: your sound effects (Assets/Resources/Sfx): coin, jump, roll, dodge (lane change), powerUp, mystery box, mission reward,
-unlock (shop), title letters, magnet loop (plays while the magnet is active). Crash sound is still generated.
-v11: power-up shield bubble (colour of active power-up, blinks before it ends), glow light on the scene, sunburst rays + glow around pickups.
-v12: map trimmed to rails+sleepers only (old map trains removed).
+🎮 Features
+3-lane endless runner that speeds up the longer you run
+Swipe and keyboard controls: change lanes, jump and roll
+Climb onto train roofs using ramps, with lines of coins on top
+Endless track built in pieces as you run, with random obstacles
+Tokyo Night world: parked trains, cherry blossom trees, red torii gates, stone lanterns, neon signs, Mt Fuji, Tokyo Tower, the moon and falling sakura petals
+6 power-ups: Coin Magnet, 2x Multiplier, Hoverboard, Jetpack, Super Sneakers, Score Boost
+Character shop: buy runners with the coins you collect (your coins are saved between runs)
+Inspector & Dog chase: they follow you and catch you when you crash
+Music and sound effects for coins, jumping, rolling and crashing
+Score, coin count and best score shown on screen
+🕹️ Controls
+Action	Keyboard	Mobile
+Move left / right	← / → or A / D	Swipe left / right
+Jump	↑ / W / Space	Swipe up
+Roll	↓ / S	Swipe down
+Browse characters	< > arrows	Tap arrows
+Turn character around	F	–
+Restart	R	Tap
+⚡ Power-Ups
+Power-Up	Effect
+🧲 Coin Magnet	Pulls nearby coins to you
+✖️2 Multiplier	Doubles your score
+🛹 Hoverboard	Saves you from one crash
+🚀 Jetpack	Flies you above the track
+👟 Super Sneakers	Lets you jump higher
+⭐ Score Boost	Adds +500 to your score
+🛠️ Tech Stack
+Engine: Unity 6 (6000.x) – Universal 3D (URP)
+Language: C#
+Models: .glb characters loaded at runtime
+Platforms: Windows / Android
+Main Scripts
+Script	Job
+PlayerController.cs	Lanes, jump, roll, swipe input, power-ups, running animation
+GameManager.cs	Score, coins, character shop, game over screen
+TrackSpawner.cs	Builds the endless track, obstacles, coins and Tokyo scenery
+Characters.cs	Character list, prices and coin bank
+CharModel.cs / Glb.cs	Loads characters and splits arms and legs for animation
+Chaser.cs	Inspector and Dog chasing the player
+PowerUp.cs / Coin.cs	Pick-ups
+AudioManager.cs	Music and sound effects
+CameraFollow.cs	Camera behind the runner
+▶️ How to Run
+Clone or download this repository.
+Open Unity Hub → Add → Add project from disk and pick the project folder.
+Open it with Unity 6.
+Go to Edit → Project Settings → Player → Other Settings → Active Input Handling and set it to Both.
+In the top menu, click Tokyo Night → Build Game Scene.
+Press Play ▶️.
+🚀 Future Scope
+Real animations for the characters (from Mixamo)
+More themes: Classic City, Winter Holiday, Miami Beach, Holi Festival
+Daily missions and rewards
+Leaderboards and online high scores
+Android release on the Play Store
+⚠️ Disclaimer
+This is a student project made for learning. Subway Surfers and its characters, names and music belong to SYBO Games. This project is not official and is not for sale.
