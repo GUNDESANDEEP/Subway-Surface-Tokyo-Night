@@ -1,0 +1,818 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.8f1 (5cb7df797b7d) revision 6076383'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-SANDEEP" at "2026-11-05T05:03:40.2634579Z"
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 5965 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-05T05:03:40Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 17400, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              f78490b120914f50b0fcc00ffe150903
+  Correlation Id:          e37ff2b35508b9c3a38b5bc70048a4cb
+  External correlation Id: 3703878312735160114
+  Machine Id:              xYUlg190QbhSsQNhZh984BEPxg0=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-SANDEEP" (connect: 0.00s, validation: 0.01s, handshake: 0.17s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-SANDEEP-notifications" at "2026-11-05T05:03:40.4383289Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token cxvOWdu_P5...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469957343466-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.21s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.8f1\Editor\Unity.exe
+-projectpath
+C:\Game Drive\NeonRunner_TokyoNight
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-SANDEEP
+-hubSessionId
+a9a0b478-1f9d-4137-9db1-a343ea5e11fe
+-accessToken
+cxvOWdu_P5W_SZSnUPdA1Y7p1V4zZnQu1q6uOn-wpkI00cf
+Successfully changed project path to: C:\Game Drive\NeonRunner_TokyoNight
+C:/Game Drive/NeonRunner_TokyoNight
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [16864]  Target information:
+
+Player connection [16864]  * "[IP] 192.168.1.4 [Port] 55505 [Flags] 2 [Guid] 806920015 [EditorId] 806920015 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-VJ1RRTLK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16864] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16864] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-1356" after 1.9 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Artifact Garbage Collection - Removed 3 unused hashed content files
+Initialize engine version: 6000.5.8f1 (5cb7df797b7d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Game Drive/NeonRunner_TokyoNight/Assets
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) 610M (ID=0x1506)
+    Vendor:   ATI
+    VRAM:     2982 MB
+    Driver:   32.0.21030.13004
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.925609 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.471 seconds
+Domain Reload Profiling: 14987ms
+	BeginReloadAssembly (851ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (715ms)
+	initialDomainReloadingComplete (1651ms)
+	LoadAllAssembliesAndSetupDomain (5279ms)
+		LoadAssemblies (847ms)
+		AnalyzeDomain (4992ms)
+			TypeCache.Refresh (4987ms)
+				TypeCache.ScanAssembly (4191ms)
+	FinalizeReload (6474ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (299ms)
+			BeforeProcessingInitializeOnLoad (263ms)
+			ProcessInitializeOnLoadAttributes (379ms)
+			ProcessInitializeOnLoadMethodAttributes (5333ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 38 packages:
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.1 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.ugui@2.5.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.ugui@1c4864518158)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Game Drive\NeonRunner_TokyoNight\Library\PackageCache\com.unity.modules.hierarchycore)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.04 seconds
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Game Drive\NeonRunner_TokyoNight
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 122.9919ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.8f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/2000b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Game Drive/NeonRunner_TokyoNight
+ExitCode: 0 Duration: 0s320ms
+*** Tundra build success (0.22 seconds), 0 items updated, 244 evaluated
+AssetDatabase: script compilation time: 2.050057s
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.513 seconds
+Domain Reload Profiling: 2893ms
+	BeginReloadAssembly (715ms)
+		DisableScriptedObjects (103ms)
+		CreateAndSetChildDomain (200ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (490ms)
+		LoadAssemblies (409ms)
+		AnalyzeDomain (75ms)
+			TypeCache.Refresh (51ms)
+				TypeCache.ScanAssembly (36ms)
+			BuildScriptInfoCaches (15ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1517ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			BeforeProcessingInitializeOnLoad (233ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (275ms)
+			AfterProcessingInitializeOnLoad (18ms)
+		AwakeInstancesAfterBackupRestoration (76ms)
+Starting new worker id: 0 with log in C:/Game Drive/NeonRunner_TokyoNight/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=50bbbbdcdae44a14ab1cd96778207559): Total: 8.652 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=4939 ms
+		Asset DB Callback time: managed=62 ms, native=90 ms
+		Scripting: domain reloads=1, domain reload time=1470 ms, compile time=2056 ms, other=33 ms
+		Project Asset Count: scripts=208, non-scripts=138
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 96.255ms
+	ApplyChangesToAssetFolders: 2.276ms
+	Scan: 199.111ms
+	Collect global state as custom dependencies: 38.195ms
+	CategorizeScriptCompilationAssets: 4.840ms
+	ProcessAssetsWithTransientArtifactChanges: 22.789ms
+	CategorizeAssets: 25.580ms
+	CompileScripts: 2055.611ms
+	ImportOutOfDateAssets: 1556.017ms (1525.439ms without children)
+		UnloadImportedAssets: 0.329ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.145ms
+		ImportSchedulerStart: 30.099ms
+	PostProcessAllAssets: 62.432ms
+		MonoPostProcessAllAssets: 62.252ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 21.923ms
+			SyncVS.PostprocessSyncProject 2.673ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.432ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 2.140ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.960ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.646ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.454ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.388ms
+	UnloadStreamsBegin: 3.851ms
+	GenerateScriptTypeHashes: 1.065ms
+	GenerateScriptTypeSerializationHashes: 2.546ms
+	Untracked: 4568.889ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Scanning for USB devices : 12.857ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-NeonRunner_TokyoNight
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/NeonRunner.unity'
+	Deserialize:            341.984 ms
+	Integration:            472.174 ms
+	Integration of assets:  0.106 ms
+	Thread Wait Time:       1.213 ms
+	Total Operation Time:   815.478 ms
+Unloading 447 unused Assets / (0.6 MB). Loaded Objects now: 1261.
+Memory consumption went from 217.8 MB to 217.3 MB.
+Total: 35.173400 ms (FindLiveObjects: 0.414100 ms CreateObjectMapping: 0.633500 ms MarkObjects: 24.908700 ms  DeleteObjects: 1.855500 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Game Drive\NeonRunner_TokyoNight\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/SANDEEP/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+D3D11 device created for Microsoft Media Foundation video decoding.
+[Project] Loading completed in 64.116 seconds
+	Project init time: 				57.865 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		1.954 seconds
+		Asset Database init time: 		2.690 seconds
+		Global illumination init time: 	0.020 seconds
+		Assemblies load time: 			36.306 seconds
+		Unity extensions init time: 	0.017 seconds
+		Asset Database refresh time: 	8.653 seconds
+	Scene opening time: 			5.052 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1793855083944,"processId":1356,"projectLoad":64.1158535,"projectInit":57.8652406,"templateInit":0.0,"packageManagerInit":1.9540343,"assetDatabaseInit":2.6895125,"globalIlluminationInit":0.0201646,"assembliesLoad":36.3059081,"unityExtensionsInit":0.0169637,"assetDatabaseRefresh":8.6528314,"sceneOpening":5.0521143}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1793855083946,"processId":1356,"editorVersion":"6000.5.8f1 (5cb7df797b7d)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
+Worker ready: AssetImportWorkerHW0 0
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=36689e3ed438813449a9242df4b03b16): Total: 0.162 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Successfully resolved entitlement details
+Dynamic Batching is deprecated and will be removed in a future release. Use GPU Instancing instead. Disable Dynamic Batching in Project Settings > Player > Other Settings to remove this warning.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.PlayerSettingsBatchingWarning:WarnIfDynamicBatchingEnabled ()
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+Created GICache directory at C:/Users/SANDEEP/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.102s, timestamps: [71.181 - 71.283]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "cxvOWdu_"... (expires: 2026-11-05T07:02:22Z)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Android Extension - Scanning For ADB Devices 4024 ms
+Android Extension - Scanning For ADB Devices 407 ms
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Android Extension - Scanning For ADB Devices 522 ms
+Android Extension - Scanning For ADB Devices 606 ms
+TrimDiskCacheJob: Current cache size 0mb
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Asset Pipeline Refresh (id=ed84e018858063c4fb8c3efcd8418621): Total: 0.040 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Starting new worker id: 1 with log in C:/Game Drive/NeonRunner_TokyoNight/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: 25be715f6f000314fa7421acfa9ac5fd - Path: Assets/Scripts/Gfx.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'efa78c8fde0a180d2510e2f570560b55') in 0.5782855 seconds
+[Worker0] Imported GUID: 64707e79e7ed7f84fb9fc20da787d940 - Path: Assets/Editor/NeonRunnerSceneCreator.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '76a6a975eea0a25954ad1291a0c3720d') in 0.033423 seconds
+[Worker0] Imported GUID: 8400d490cf6b1194da37aca74f951045 - Path: Assets/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1ecd763fb38bb9783bb2405745473e5a') in 0.0228025 seconds
+[Worker0] Imported GUID: 48e49cbc5edadb249b9202883c8fb36d - Path: Assets/Scenes - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2ececcfa2b723c66e1734d7fb30b129e') in 0.0126775 seconds
+[Worker0] Imported GUID: 5c865a949fda01242807f47fa057d238 - Path: Assets/Scripts/GameManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'bc125357c109c899cea7db805826add4') in 0.0120008 seconds
+[Worker0] Imported GUID: 754d767588066fe4e9194ec19e2a6ab8 - Path: Assets/Scenes/NeonRunner.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e2f592d43ba5c973f9b5f278c685d6dc') in 0.0165359 seconds
+Worker ready: AssetImportWorkerHW1 1
+Scanning for USB devices : 6.602ms
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Android Extension - Scanning For ADB Devices 523 ms
+Android Extension - Scanning For ADB Devices 428 ms
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Android Extension - Scanning For ADB Devices 727 ms
+Android Extension - Scanning For ADB Devices 2685 ms
+
+Asset Pipeline Refresh (id=7e34d46de8da89543b74a89fa79d8e74): Total: 0.309 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=268 ms
+		Asset DB Callback time: managed=0 ms, native=39 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=208, non-scripts=138
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 40.931ms
+	ApplyChangesToAssetFolders: 1.037ms
+	Scan: 250.135ms
+	Collect global state as custom dependencies: 2.654ms
+	GatherAllCurrentPrimaryImportResultRevisions: 1.249ms
+	UnloadStreamsEnd: 0.543ms
+	Untracked: 12.170ms
+
+Asset Pipeline Refresh (id=9ea925548567d224a9633270afcd195d): Total: 0.015 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Licensing::Client] Successfully resolved entitlement details
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.035 seconds
+Domain Reload Profiling: 7870ms
+	BeginReloadAssembly (2921ms)
+		DisableScriptedObjects (579ms)
+		CreateAndSetChildDomain (934ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (73ms)
+	initialDomainReloadingComplete (275ms)
+	LoadAllAssembliesAndSetupDomain (526ms)
+		LoadAssemblies (1115ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (16ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (4040ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (82ms)
+			BeforeProcessingInitializeOnLoad (366ms)
+			ProcessInitializeOnLoadAttributes (291ms)
+			ProcessInitializeOnLoadMethodAttributes (293ms)
+			AfterProcessingInitializeOnLoad (24ms)
+		AwakeInstancesAfterBackupRestoration (1524ms)
+
+Asset Pipeline Refresh (id=1710d36f4d470e84f80a1453a006493d): Total: 9.020 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=4287 ms
+		Asset DB Callback time: managed=179 ms, native=260 ms
+		Scripting: domain reloads=1, domain reload time=4286 ms, compile time=5 ms, other=0 ms
+		Project Asset Count: scripts=208, non-scripts=138
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 10.890ms
+	ApplyChangesToAssetFolders: 0.773ms
+	Collect global state as custom dependencies: 6.576ms
+	ProcessAssetsWithTransientArtifactChanges: 56.081ms
+	CategorizeAssets: 8.642ms
+	CompileScripts: 5.253ms
+	ImportOutOfDateAssets: 4060.215ms (4045.642ms without children)
+		UnloadImportedAssets: 6.533ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.208ms
+		ImportSchedulerStart: 7.821ms
+	PostProcessAllAssets: 401.773ms
+		PostProcessCallbackCreateDeferredMaterials 9.496ms
+		RaytracingShaderImportPostprocess 1.626ms
+		ShaderAssetModifiedCallback 1.355ms
+		ComputeShaderImportPostprocess 1.187ms
+		SpeedTreeImporter.PostprocessAllAssets 1.042ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 0.526ms
+		AssemblyValidation.PostprocessAllAssets 0.524ms
+		BlockShaderImporter.PostprocessAllAssets 0.445ms
+		MonoPostProcessAllAssets: 169.299ms
+			AssetPostprocessor.OnPostprocessAllAssets 34.090ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 31.230ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 27.037ms
+			AssetChangedListener.OnPostprocessAllAssets 11.801ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 5.281ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 4.338ms
+			SyncVS.PostprocessSyncProject 4.177ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 3.527ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.879ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 1.445ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 1.194ms
+			AssetEvents.OnPostprocessAllAssets 1.108ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.020ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.957ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.905ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.693ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.642ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.629ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.628ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.530ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.426ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.382ms
+	PostAssetChangesProfiler: 36.166ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.070ms
+	UnloadStreamsBegin: 4.204ms
+	GenerateScriptTypeHashes: 0.260ms
+	GenerateScriptTypeSerializationHashes: 0.609ms
+	Untracked: 4413.190ms
+
+[Subway Surface] Music loaded: subway-surfers (11.9s)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GameManager:FindMusic () (at Assets/Scripts/GameManager.Extras.cs:78)
+GameManager:SetupAudio () (at Assets/Scripts/GameManager.cs:245)
+GameManager:Awake () (at Assets/Scripts/GameManager.cs:89)
+UnityEngine.GameObject:Internal_AddComponentWithType (System.Type)
+UnityEngine.GameObject:AddComponent (System.Type)
+UnityEngine.GameObject:AddComponent<GameManager> ()
+Bootstrap:Init () (at Assets/Scripts/Bootstrap.cs:11)
+
+(Filename: Assets/Scripts/GameManager.Extras.cs Line: 78)
+
+[Subway Surface] Bloom skipped: this project uses the Built-in render pipeline (bloom needs the URP template). The game works fine without it.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GameManager:SetupBloom () (at Assets/Scripts/GameManager.Extras.cs:21)
+GameManager:Awake () (at Assets/Scripts/GameManager.cs:93)
+UnityEngine.GameObject:Internal_AddComponentWithType (System.Type)
+UnityEngine.GameObject:AddComponent (System.Type)
+UnityEngine.GameObject:AddComponent<GameManager> ()
+Bootstrap:Init () (at Assets/Scripts/Bootstrap.cs:11)
+
+(Filename: Assets/Scripts/GameManager.Extras.cs Line: 21)
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.802 ms
+	Integration:            3127.995 ms
+	Integration of assets:  0.010 ms
+	Thread Wait Time:       0.039 ms
+	Total Operation Time:   3130.845 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Scanning for USB devices : 8.470ms
+Scanning for USB devices : 16.651ms
+Scanning for USB devices : 5.492ms
+Scanning for USB devices : 5.978ms
+Scanning for USB devices : 4.891ms
+Scanning for USB devices : 5.415ms
+Scanning for USB devices : 5.017ms
+Scanning for USB devices : 6.769ms
+Scanning for USB devices : 6.432ms
+Scanning for USB devices : 7.161ms
+Scanning for USB devices : 10.745ms
+Scanning for USB devices : 6.342ms
+Scanning for USB devices : 7.601ms
+Scanning for USB devices : 6.237ms
+Scanning for USB devices : 4.732ms
+Scanning for USB devices : 10.710ms
+Scanning for USB devices : 7.117ms
+Scanning for USB devices : 7.782ms
+Scanning for USB devices : 7.408ms
+Scanning for USB devices : 9.864ms
+Scanning for USB devices : 13.672ms
+Scanning for USB devices : 10.480ms
+Scanning for USB devices : 8.520ms
+Scanning for USB devices : 6.954ms
+Scanning for USB devices : 5.324ms
+Scanning for USB devices : 6.062ms
+Scanning for USB devices : 16.738ms
+Scanning for USB devices : 28.889ms
+Scanning for USB devices : 12.948ms
+Scanning for USB devices : 5.203ms
+Scanning for USB devices : 4.771ms
+Scanning for USB devices : 7.216ms
+Scanning for USB devices : 6.074ms
+Scanning for USB devices : 4.839ms
+Scanning for USB devices : 8.480ms
+Scanning for USB devices : 5.649ms
+Scanning for USB devices : 5.003ms
+Scanning for USB devices : 28.131ms
+Scanning for USB devices : 29.538ms
+Asset Pipeline Refresh (id=74e78b5a42f9114418b2ffccf318381d): Total: 0.240 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=4896f7d6f49893f4bbd0b265569d9469): Total: 0.010 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Scanning for USB devices : 7.191ms
+Scanning for USB devices : 4.951ms
+Asset Pipeline Refresh (id=2be608950b017014cbf4424a4562f8ab): Total: 0.019 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+
+Asset Pipeline Refresh (id=ea3a3df3c44614e4a9a2211434962e89): Total: 0.402 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=381 ms
+		Asset DB Callback time: managed=0 ms, native=13 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=208, non-scripts=138
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.537ms
+	InvokePackagesCallback: 0.508ms
+	ApplyChangesToAssetFolders: 15.567ms
+	Collect global state as custom dependencies: 41.871ms
+	GatherAllCurrentPrimaryImportResultRevisions: 11.037ms
+	UnloadStreamsBegin: 233.582ms
+	Untracked: 80.056ms
+
+Asset Pipeline Refresh (id=a76b34c23984ebe479e82f21e8f7e264): Total: 0.013 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=c016d1b183964c64e95242577fbb4d8c): Total: 0.010 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=a0089af4255c584419a6d0ab6e471230): Total: 0.012 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Scanning for USB devices : 107.099ms
+Scanning for USB devices : 7.632ms
+Scanning for USB devices : 6.684ms
+Scanning for USB devices : 5.699ms
+Scanning for USB devices : 7.456ms
+Scanning for USB devices : 15.226ms
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Curl error 6: Could not resolve host: cdp.cloud.unity3d.com
+Asset Pipeline Refresh (id=fa8429005d176d84e86b9246f5743137): Total: 0.033 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=4a10907d2a94515449143348c763102d): Total: 0.013 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=df5535f5bcbf6e648abb9f2c797f201a): Total: 0.016 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Scanning for USB devices : 9.308ms
+Scanning for USB devices : 6.502ms
+Asset Pipeline Refresh (id=a79553154ea0dad4c9e01b06411b20b8): Total: 0.011 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=7d48740bded97f741bc60b455e6a9bae): Total: 0.041 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=7b7e061b0db783947bcf5faa369adb30): Total: 0.033 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            17.325 ms
+	Integration:            70.367 ms
+	Integration of assets:  0.425 ms
+	Thread Wait Time:       -0.387 ms
+	Total Operation Time:   87.730 ms
+Unloading 346 unused Assets / (19.5 MB). Loaded Objects now: 2130.
+Memory consumption went from 398.0 MB to 378.6 MB.
+Total: 362.113800 ms (FindLiveObjects: 1.594900 ms CreateObjectMapping: 0.672700 ms MarkObjects: 291.552100 ms  DeleteObjects: 67.877900 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=8d5951fbe59356944b1d52ec0a2b8153): Total: 0.104 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[Licensing::Client] Successfully resolved entitlement details
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.669 seconds
+Domain Reload Profiling: 10872ms
+	BeginReloadAssembly (5260ms)
+		DisableScriptedObjects (1125ms)
+		CreateAndSetChildDomain (1632ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (69ms)
+	initialDomainReloadingComplete (288ms)
+	LoadAllAssembliesAndSetupDomain (538ms)
+		LoadAssemblies (1078ms)
+		AnalyzeDomain (48ms)
+			TypeCache.Refresh (19ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (4672ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (112ms)
+			BeforeProcessingInitializeOnLoad (422ms)
+			ProcessInitializeOnLoadAttributes (378ms)
+			ProcessInitializeOnLoadMethodAttributes (319ms)
+			AfterProcessingInitializeOnLoad (26ms)
+		AwakeInstancesAfterBackupRestoration (1759ms)
+
+Asset Pipeline Refresh (id=d9d15083b72a82f4bb49831e8e4ad78a): Total: 11.969 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=4980 ms
+		Asset DB Callback time: managed=80 ms, native=1 ms
+		Scripting: domain reloads=1, domain reload time=6900 ms, compile time=5 ms, other=0 ms
+		Project Asset Count: scripts=208, non-scripts=138
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 7.339ms
+	ApplyChangesToAssetFolders: 1.294ms
+	Collect global state as custom dependencies: 5.737ms
+	ProcessAssetsWithTransientArtifactChanges: 1.660ms
+	CategorizeAssets: 77.790ms
+	CompileScripts: 5.393ms
+	ImportOutOfDateAssets: 4700.458ms (4684.221ms without children)
+		UnloadImportedAssets: 1.308ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.442ms
+		ImportSchedulerStart: 14.466ms
+	PostProcessAllAssets: 80.678ms
+		MonoPostProcessAllAssets: 80.657ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 38.127ms
+			AssetPostprocessor.OnPostprocessAllAssets 34.090ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 27.037ms
+			AssetChangedListener.OnPostprocessAllAssets 11.801ms
+			SyncVS.PostprocessSyncProject 5.477ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 5.281ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 4.338ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 3.220ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.879ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 1.445ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.279ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 1.194ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 1.176ms
+			AssetEvents.OnPostprocessAllAssets 1.108ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.020ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.733ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.693ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.680ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.642ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.628ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.439ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.382ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.939ms
+	GenerateScriptTypeHashes: 0.625ms
+	GenerateScriptTypeSerializationHashes: 1.644ms
+	Untracked: 7064.526ms
+
+[Subway Surface] Music loaded: subway-surfers (11.9s)
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GameManager:FindMusic () (at Assets/Scripts/GameManager.Extras.cs:78)
+GameManager:SetupAudio () (at Assets/Scripts/GameManager.cs:245)
+GameManager:Awake () (at Assets/Scripts/GameManager.cs:89)
+UnityEngine.GameObject:Internal_AddComponentWithType (System.Type)
+UnityEngine.GameObject:AddComponent (System.Type)
+UnityEngine.GameObject:AddComponent<GameManager> ()
+Bootstrap:Init () (at Assets/Scripts/Bootstrap.cs:11)
+
+(Filename: Assets/Scripts/GameManager.Extras.cs Line: 78)
+
+[Subway Surface] Bloom skipped: this project uses the Built-in render pipeline (bloom needs the URP template). The game works fine without it.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+GameManager:SetupBloom () (at Assets/Scripts/GameManager.Extras.cs:21)
+GameManager:Awake () (at Assets/Scripts/GameManager.cs:93)
+UnityEngine.GameObject:Internal_AddComponentWithType (System.Type)
+UnityEngine.GameObject:AddComponent (System.Type)
+UnityEngine.GameObject:AddComponent<GameManager> ()
+Bootstrap:Init () (at Assets/Scripts/Bootstrap.cs:11)
+
+(Filename: Assets/Scripts/GameManager.Extras.cs Line: 21)
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.618 ms
+	Integration:            2401.757 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.043 ms
+	Total Operation Time:   2403.421 ms
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=48871cf7b79274a419e9ac9b3c8c291d): Total: 0.083 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=f2ddb164c53730a43ae52df74052bae2): Total: 0.009 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=14aa34ab838fa3c4abf027d41988bfce): Total: 0.016 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+
+Asset Pipeline Refresh (id=a71807f0771f1434d9c7e1e07c0baef5): Total: 0.483 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=481 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=208, non-scripts=138
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.148ms
+	ApplyChangesToAssetFolders: 5.286ms
+	Collect global state as custom dependencies: 5.920ms
+	GatherAllCurrentPrimaryImportResultRevisions: 1.045ms
+	Untracked: 468.909ms
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.861 ms
+	Integration:            50.812 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       0.022 ms
+	Total Operation Time:   52.700 ms
+Unloading 13 unused Assets / (6.6 MB). Loaded Objects now: 2113.
+Memory consumption went from 377.3 MB to 370.7 MB.
+Total: 94.240600 ms (FindLiveObjects: 0.958600 ms CreateObjectMapping: 0.789000 ms MarkObjects: 89.617700 ms  DeleteObjects: 2.855300 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Unexpected transport error from import worker 1 (possible crash). code=10054 error=An existing connection was forcibly closed by the remote host. -- for more information, check Logs/AssetImportWorkerHW1.log
+[OnDemand] Worker 1: WorkerState(Connected), ImporterState(Idle) session transport - while handling importAddress Guid(00000000000000000000000000000000) Importer(-2,00000000000000000000000000000000) - path  - see the AssetImportWorker log for worker 1 at /Logs.
+IPCStream (Upm-1356): IPC stream failed to read (Not connected)

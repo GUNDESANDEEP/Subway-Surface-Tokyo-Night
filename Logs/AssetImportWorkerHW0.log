@@ -1,0 +1,369 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.8f1 (5cb7df797b7d) revision 6076383'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 5965 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-SANDEEP" at "2026-11-05T05:04:35.063337Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-05T05:04:35Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 17400, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              113291c41898409c838ab54ce1980134
+  Correlation Id:          e37ff2b35508b9c3a38b5bc70048a4cb
+  External correlation Id: 2789109514312828442
+  Machine Id:              xYUlg190QbhSsQNhZh984BEPxg0=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-SANDEEP" (connect: 0.00s, validation: 0.00s, handshake: 0.14s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-SANDEEP-notifications" at "2026-11-05T05:04:35.2112108Z"
+[Licensing::Module] Licensing Background thread has ended after 0.15s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW0
+-projectPath
+C:/Game Drive/NeonRunner_TokyoNight
+-logFile
+Logs/AssetImportWorkerHW0.log
+-srvPort
+57658
+-parentPid
+1356
+-analyticsCloudUserId
+anonymous
+-analyticsLocalProjectId
+18e4dd43ffa7c9b408b8ab1d67a32eb3
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+6836297c1f11c515239aa4d07ba1d453b59c9921
+-cbmMachineId
+xYUlg190QbhSsQNhZh984BEPxg0=
+-licensingIpc
+LicenseClient-SANDEEP
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+3
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Game Drive/NeonRunner_TokyoNight
+C:/Game Drive/NeonRunner_TokyoNight
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [3136]  Target information:
+
+Player connection [3136]  * "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 1103017425 [EditorId] 1103017425 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-VJ1RRTLK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [3136] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [3136] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.5.8f1 (5cb7df797b7d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Game Drive/NeonRunner_TokyoNight/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        AMD Radeon(TM) 610M (ID=0x1506)
+    Vendor:          ATI
+    VRAM:            2982 MB
+    App VRAM Budget: 4504 MB
+    Driver:          32.0.21030.13004
+    Unified Memory Architecture
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469957343466-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.037870 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.583 seconds
+Domain Reload Profiling: 8815ms
+	BeginReloadAssembly (768ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (71ms)
+	initialDomainReloadingComplete (347ms)
+	LoadAllAssembliesAndSetupDomain (2027ms)
+		LoadAssemblies (853ms)
+		AnalyzeDomain (1656ms)
+			TypeCache.Refresh (1652ms)
+				TypeCache.ScanAssembly (1595ms)
+	FinalizeReload (5585ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (138ms)
+			BeforeProcessingInitializeOnLoad (236ms)
+			ProcessInitializeOnLoadAttributes (261ms)
+			ProcessInitializeOnLoadMethodAttributes (4743ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.302 seconds
+Domain Reload Profiling: 2530ms
+	BeginReloadAssembly (525ms)
+		DisableScriptedObjects (23ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (134ms)
+	LoadAllAssembliesAndSetupDomain (505ms)
+		LoadAssemblies (351ms)
+		AnalyzeDomain (84ms)
+			TypeCache.Refresh (61ms)
+				TypeCache.ScanAssembly (43ms)
+			BuildScriptInfoCaches (17ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1306ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			BeforeProcessingInitializeOnLoad (213ms)
+			ProcessInitializeOnLoadAttributes (222ms)
+			ProcessInitializeOnLoadMethodAttributes (171ms)
+			AfterProcessingInitializeOnLoad (17ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.67 seconds
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 434 unused Assets / (68.6 KB). Loaded Objects now: 1204.
+Memory consumption went from 172.7 MB to 172.6 MB.
+Total: 14.381600 ms (FindLiveObjects: 0.362900 ms CreateObjectMapping: 0.233800 ms MarkObjects: 12.858900 ms  DeleteObjects: 0.919900 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 1204.
+Memory consumption went from 172.2 MB to 172.2 MB.
+Total: 13.501200 ms (FindLiveObjects: 0.255600 ms CreateObjectMapping: 0.090900 ms MarkObjects: 13.128800 ms  DeleteObjects: 0.022000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-05T05:06:48.2952099Z
+  Time since last request: 51729.12469440000132 seconds.
+  importAddress: GUID: 25be715f6f000314fa7421acfa9ac5fd - Path: Assets/Scripts/Gfx.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 25be715f6f000314fa7421acfa9ac5fd - Path: Assets/Scripts/Gfx.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 25be715f6f000314fa7421acfa9ac5fd' -> (Import Result ID: 'efa78c8fde0a180d2510e2f570560b55') in 0.524 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2baa6a648b7494bf718f2ae340f9d27a DependenciesID=59b9a1f47a472a84da5a7f48ece39b66 StaticDependenciesID=4b78beb867e9d2e7d7cd3c4f5637559f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-05T05:06:48.8796568Z
+  Time since last request: 0.0050032 seconds.
+  importAddress: GUID: 64707e79e7ed7f84fb9fc20da787d940 - Path: Assets/Editor/NeonRunnerSceneCreator.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 64707e79e7ed7f84fb9fc20da787d940 - Path: Assets/Editor/NeonRunnerSceneCreator.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 64707e79e7ed7f84fb9fc20da787d940' -> (Import Result ID: '76a6a975eea0a25954ad1291a0c3720d') in 0.033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6baa2c7b1a2990ded462356d9e37a73a DependenciesID=75412435c3c67e21b6275310ab33647b StaticDependenciesID=e12d85de95de5fc044a0cc2afbe0791d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-05T05:06:48.9168024Z
+  Time since last request: 0.0033909 seconds.
+  importAddress: GUID: 8400d490cf6b1194da37aca74f951045 - Path: Assets/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8400d490cf6b1194da37aca74f951045 - Path: Assets/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8400d490cf6b1194da37aca74f951045' -> (Import Result ID: '1ecd763fb38bb9783bb2405745473e5a') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6945b81f35bbfc9488c8fae5423d93f5 DependenciesID=562ee4103954001329c9990bcf1a29c6 StaticDependenciesID=79d076116b8e537665721a898b7193e8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-05T05:06:48.9425696Z
+  Time since last request: 0.0022927 seconds.
+  importAddress: GUID: 48e49cbc5edadb249b9202883c8fb36d - Path: Assets/Scenes - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 48e49cbc5edadb249b9202883c8fb36d - Path: Assets/Scenes - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 48e49cbc5edadb249b9202883c8fb36d' -> (Import Result ID: '2ececcfa2b723c66e1734d7fb30b129e') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=44df23ee8074b6663a354593bec8e67e DependenciesID=66aca8570de7c7e8a47ef487c6c720a5 StaticDependenciesID=6c21e38c4c534618cda8cb019fefb9c5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-05T05:06:48.9582356Z
+  Time since last request: 0.0024082 seconds.
+  importAddress: GUID: 5c865a949fda01242807f47fa057d238 - Path: Assets/Scripts/GameManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5c865a949fda01242807f47fa057d238 - Path: Assets/Scripts/GameManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5c865a949fda01242807f47fa057d238' -> (Import Result ID: 'bc125357c109c899cea7db805826add4') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=036c958d81c19e4b43a46c9d74c9781d DependenciesID=245bde05f7964fffb966866558c23e7f StaticDependenciesID=086772bb3853d88b851a95b667c0d4b9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-05T05:06:48.9730421Z
+  Time since last request: 0.002458 seconds.
+  importAddress: GUID: 754d767588066fe4e9194ec19e2a6ab8 - Path: Assets/Scenes/NeonRunner.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 754d767588066fe4e9194ec19e2a6ab8 - Path: Assets/Scenes/NeonRunner.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 754d767588066fe4e9194ec19e2a6ab8' -> (Import Result ID: 'e2f592d43ba5c973f9b5f278c685d6dc') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=19b3945a495ad52ee5c3682d5aea8375 DependenciesID=7db8af236f384e3818959c52467353a8 StaticDependenciesID=0cde22a62581d12c37eb935fe24ef7c7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.921 seconds
+Domain Reload Profiling: 6640ms
+	BeginReloadAssembly (2467ms)
+		DisableScriptedObjects (353ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (532ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (62ms)
+	initialDomainReloadingComplete (379ms)
+	LoadAllAssembliesAndSetupDomain (737ms)
+		LoadAssemblies (1031ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (57ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2956ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (95ms)
+			BeforeProcessingInitializeOnLoad (567ms)
+			ProcessInitializeOnLoadAttributes (443ms)
+			ProcessInitializeOnLoadMethodAttributes (461ms)
+			AfterProcessingInitializeOnLoad (42ms)
+		AwakeInstancesAfterBackupRestoration (323ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 432 unused Assets / (15.5 KB). Loaded Objects now: 1206.
+Memory consumption went from 173.0 MB to 172.9 MB.
+Total: 18.214500 ms (FindLiveObjects: 0.363900 ms CreateObjectMapping: 0.220700 ms MarkObjects: 16.402100 ms  DeleteObjects: 1.218200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.717 seconds
+Domain Reload Profiling: 11689ms
+	BeginReloadAssembly (7485ms)
+		DisableScriptedObjects (634ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (478ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (124ms)
+	initialDomainReloadingComplete (479ms)
+	LoadAllAssembliesAndSetupDomain (818ms)
+		LoadAssemblies (5361ms)
+		AnalyzeDomain (66ms)
+			TypeCache.Refresh (34ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2725ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (197ms)
+			BeforeProcessingInitializeOnLoad (527ms)
+			ProcessInitializeOnLoadAttributes (389ms)
+			ProcessInitializeOnLoadMethodAttributes (376ms)
+			AfterProcessingInitializeOnLoad (38ms)
+		AwakeInstancesAfterBackupRestoration (40ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 432 unused Assets / (15.5 KB). Loaded Objects now: 1206.
+Memory consumption went from 173.1 MB to 173.1 MB.
+Total: 16.386700 ms (FindLiveObjects: 0.255900 ms CreateObjectMapping: 0.134300 ms MarkObjects: 15.093800 ms  DeleteObjects: 0.896400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+AssetImportWorkerClient::OnTransportError - code=10054 error=An existing connection was forcibly closed by the remote host.
